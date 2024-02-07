@@ -1,0 +1,101 @@
+const INFO = {
+	main: {
+		title: "Portfolio by Aziz",
+		name: "Aziz Sassi.",
+		email: "sassiaziz50@gmail.com",
+		logo: "../logo.png",
+	},
+
+	socials: {
+		// twitter: "https://twitter.com/",
+		github: "https://github.com/aziz-sassi?tab=repositories/",
+		linkedin: "https://www.linkedin.com/in/aziz-sassi/",
+		// instagram: "https://instagram.com/",
+		// stackoverflow: "https://stackoverflow.com/",
+		// facebook: "https://facebook.com/",
+	},
+
+	homepage: {
+		title: "Aziz: Your Secret Weapon for Software Success!",
+		description:
+			"Hey there, I'm Aziz, your friendly neighborhood code wizard! With over two years of software sorcery under my belt, I've mastered the art of conjuring up innovative solutions to tackle any business challenge. From slaying bugs to casting spells that deliver projects on time and within budget, I thrive in fast-paced, collaborative environments. So, if you're ready for a magical journey filled with laughter and code, let's embark on this adventure together!",
+	},
+
+	about: {
+		title: "I’m Aziz. I live in Tunisia, where I design the future.",
+		description:
+			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+	},
+
+	articles: {
+		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		description:
+			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+	},
+
+	projects: [
+		{
+			title: "Youree Smart charging App",
+			description:
+				"Collaborated on this React Native-powered app, Youree, connecting electric vehicle (EV) owners to a sustainable charging solution. Youree offers a seamless platform to manage charging costs and reduce carbon footprints, providing users with a free, smart home charging experience.",
+			logo: "data:image/jpeg;base64,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",
+			linkText: "View Project",
+			link: "https://play.google.com/store/apps/details?id=com.youree",
+		},
+		{
+			title: "Youree Fleet managment",
+			description:
+				"Collaborated on the development of Youree, an innovative app designed to optimize electric vehicle fleets. As part of the team, I contributed to creating a seamless user experience. With Youree, we aimed to revolutionize fleet management, reduce CO2 emissions, and promote sustainability in transportation.",
+			logo: "data:image/jpeg;base64,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",
+			linkText: "View Project",
+			link: "https://youree.io/business-solution/",
+		},
+		{
+			title: "E-learning platform",
+			description:
+				"My E-Learning Platform project enables students to access and purchase courses uploaded by teachers, both free and paid. It also facilitates scheduling meetings with teachers via video calls for personalized instruction.",
+			logo: "https://miro.medium.com/v2/resize:fit:1400/1*z1U7SJeqK_JJXUYei5uD8w.png",
+			linkText: "View Project",
+			link: "https://github.com/aziz-sassi/Course_Hub",
+		},
+		{
+			title: "Dolla",
+			description:
+				"project is a React-based platform for reserving drivers. Simply input your destination, confirm your ride, and book a driver effortlessly.",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1200px-React_Logo_SVG.svg.png",
+			linkText: "View Project",
+			link: "https://french-website.vercel.app/",
+		},
+
+		{
+			title: "react-redux-Contact-Book",
+			description:
+				"The React-Redux Contact Book is a streamlined application for managing your contacts with ease. Powered by React and Redux.",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1200px-React_Logo_SVG.svg.png",
+			linkText: "View Project",
+			link: "https://github.com/aziz-sassi/react-redux-Contact-Book",
+		},
+
+
+
+		{
+			title: "clubs App",
+			description:
+				"It's a mobile app simplifies socializing and event organization. Create an account, join clubs, and attend events, or lead by creating your own clubs and events. With easy-to-use features.",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1aejDvmasCUCqcMlM2nUu_MqZkHfAuhI3lw&usqp=CAU",
+			linkText: "View Project",
+			link: "https://github.com/aziz-sassi/app.git",
+		},
+
+		// {
+		// 	title: "Project 5",
+		// 	description:
+		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+		// 	linkText: "View Project",
+		// 	link: "https://github.com",
+		// },
+	],
+};
+
+export default INFO;
