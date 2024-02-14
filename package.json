@@ -4,7 +4,8 @@
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
 		"name": "Aziz Sassi",
-		"email": "sassiaziz50@gmail.com"	},
+		"email": "sassiaziz50@gmail.com"
+	},
 	"license": "MIT",
 	"private": true,
 	"dependencies": {

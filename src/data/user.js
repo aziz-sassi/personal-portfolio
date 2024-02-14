@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Aziz: Your Secret Weapon for Software Success!",
 		description:
-			"Hey there, I'm Aziz, your friendly neighborhood code wizard! With over two years of software sorcery under my belt, I've mastered the art of conjuring up innovative solutions to tackle any business challenge. From slaying bugs to casting spells that deliver projects on time and within budget, I thrive in fast-paced, collaborative environments. So, if you're ready for a magical journey filled with laughter and code, let's embark on this adventure together!",
+			"Greetings,I'm Aziz, an experienced developer specializing in web and mobile apps using React, React Native, JavaScript, and TypeScript. I also handle backend development with Node.js, Spring Boot, and databases like MySQL, MongoDB, and PostgreSQL. Let's work together for successful projects!",
 	},
 
 	about: {
