@@ -80,7 +80,7 @@
 @media (max-width: 1270px) {
 	.page-content:before,
 	.page-content:after {
-		width: calc((100% - 90%) / 2);
+		width: calc((90% - 80%) / 2);
 	}
 
 	.content-wrapper {

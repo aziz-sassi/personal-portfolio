@@ -5,7 +5,7 @@ import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faGithub,
-	
+
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
